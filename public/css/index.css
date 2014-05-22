@@ -1,0 +1,132 @@
+body{
+	background-color:rgb(225,225,225);
+	margin:0px;
+}
+
+.main{
+	position:relative;
+	margin:0px auto;
+	width:960px;
+}
+
+.head-bar{
+	position:absolute;
+	width:100%;
+}
+
+.head-img{
+	position:absolute;
+	top:-80px;
+	width:250px;
+	height:250px;
+	border-radius:125px;
+	background-color:#001233;
+	background-image:url(../img/logo.png);
+	background-size:250px 250px;
+	background-position:0px 50px;
+	z-index:100;
+}
+
+.head-title{
+	position:absolute;
+	top:30px;
+	left:200px;
+	width:760px;
+	height:100px;
+	border-radius:0 20px 20px 0;
+	background-color:#348334;
+	z-index:50;
+}
+.head-title span{
+	position:absolute;
+	top:20px;
+	height:60px;
+	left:100px;
+	line-height:60px;
+	font-size:40px;
+	font-weight:bold;
+	font-family:"Microsoft YaHei";
+	color:white;
+}
+#body-content{
+	position:absolute;
+	top:190px;
+	width:960px;
+	background-color:#ffffff;
+	border-radius:10px;
+}
+
+#body-nav{
+	position:absolute;
+	top:0px;
+	left:10px;
+	width:209px;
+	padding:10px;
+	border-right:1px solid #aaaaaa;
+}
+.body-nav-hot-title{
+	font-size:22px;
+	font-weight:bold;
+}
+#body-nav-hot-content{
+	font-size:16px;
+}
+.body-nav-recent-title{
+	font-size:22px;
+	font-weight:bold;
+}
+#body-nav-rencent-content{
+	font-size:16px;
+}
+
+
+#body-article{
+	position:absolute;
+	top:0px;
+	left:239px;
+	width:680px;
+	border-left:1px solid #aaaaaa;
+	padding:10px 20px 10px 20px;
+}
+
+#article-title{
+	font-family:"Microsoft YaHei";
+	font-size:32px;
+	font-weight:bold;
+	width:100%;
+	text-align:center;
+	padding-bottom:10px;
+
+}
+#article-info{
+	width:100%;
+	text-align:center;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	color:#aaaaaa;
+}
+#article-info span{
+	padding:0 9px 0 9px;
+}
+#article-tags{
+	width:100%;
+	text-align:center;
+	font-family:"Microsoft YaHei";
+	color:#FFFFFF;
+	padding:5px 0px 10px 0px;
+	border-bottom:1px solid #dddddd;
+}
+#article-tags span{
+	line-height:14px;
+	font-size:14px;
+	background-color:#777777;
+	border-radius:4px;
+	padding:1px 6px 1px 6px;
+}
+
+
+
+.tail-bar{
+	position:relative;
+	width:100%;
+}
